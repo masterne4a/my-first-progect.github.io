@@ -17,7 +17,7 @@ return arr[phrase]
 button.addEventListener('click', function () {
   
     let randomElement = getRandomPhrase(massiv);
-    randomImage.src = "https://picsum.photos/500/300?random=" + Math.random();
+   /* randomImage.src = "https://picsum.photos/500/300?random=" + Math.random();*/
     smoothly(second_part, 'textContent', randomElement);
    
   
