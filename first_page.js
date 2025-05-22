@@ -2,7 +2,7 @@ import { massiv } from './massiv.js';
 
 let button = document.querySelector('.button');
 let second_part = document.querySelector('.second_part');
-let randomImage = document.getElementById("randomImage");
+/*let randomImage = document.getElementById("randomImage");*/
 
 function getRandomPhrase(arr) {
 let phrase = Math.floor(Math.random()*arr.length);
